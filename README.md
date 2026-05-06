@@ -35,13 +35,13 @@ clock by one step produces a statistically independent token.
 ## Installation
 
 ```bash
-go get totp01a/secureotp
+go get jwc65535/secureotp
 ```
 
 ## Quick start
 
 ```go
-import "totp01a/secureotp"
+import "jwc65535/secureotp"
 
 secret := []byte("your-shared-secret")
 
